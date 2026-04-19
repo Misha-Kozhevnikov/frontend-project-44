@@ -12,3 +12,5 @@
 // Аскинема brain-calc: https://asciinema.org/a/ddtWrwHAw4lHnuEW //
 
 // Аскинема brain-gcd:  https://asciinema.org/a/qY09oLCohKZrpOQp //
+
+// Аскинема brain-progression:   https://asciinema.org/a/Mjcttnfeylfp0t4V //
