@@ -7,8 +7,8 @@ export default [
       sourceType: 'module',
     },
     rules: {
-      semi: ['error', 'never'],
-      quotes: ['error', 'single'],
+      'semi': ['error', 'never'],
+      'quotes': ['error', 'single'],
       'eol-last': ['error', 'always'],
       'quote-props': ['error', 'as-needed'],
       'no-console': 'off',
