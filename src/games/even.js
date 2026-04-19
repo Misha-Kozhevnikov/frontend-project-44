@@ -1,12 +1,12 @@
-const getRandomNumber = () => Math.floor(Math.random() * 100);
+const getRandomNumber = () => Math.floor(Math.random() * 100)
 
-const isEven = (number) => number % 2 === 0;
+const isEven = number => number % 2 === 0
 
 const getEvenRound = () => {
-  const question = getRandomNumber();
-  const correctAnswer = isEven(question) ? 'yes' : 'no';
+  const question = getRandomNumber()
+  const correctAnswer = isEven(question) ? 'yes' : 'no'
 
-  return { question, correctAnswer };
-};
+  return { question, correctAnswer }
+}
 
-export default getEvenRound;
+export default getEvenRound

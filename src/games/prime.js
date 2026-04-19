@@ -1,35 +1,35 @@
-const getRandomNumber = () => Math.floor(Math.random() * 100);
+const getRandomNumber = () => Math.floor(Math.random() * 100)
 
-const isPrime = (number) => {
+const isPrime = number => {
   if (number < 2) {
-    return false;
+    return false
   }
 
   if (number === 2) {
-    return true;
+    return true
   }
 
   if (number % 2 === 0) {
-    return false;
+    return false
   }
 
   for (let i = 3; i <= Math.sqrt(number); i += 2) {
     if (number % i === 0) {
-      return false;
+      return false
     }
   }
 
-  return true;
-};
+  return true
+}
 
 const getPrimeRound = () => {
-  const question = getRandomNumber();
-  const correctAnswer = isPrime(question) ? 'yes' : 'no';
+  const question = getRandomNumber()
+  const correctAnswer = isPrime(question) ? 'yes' : 'no'
 
   return {
     question,
     correctAnswer,
-  };
-};
+  }
+}
 
-export default getPrimeRound;
+export default getPrimeRound

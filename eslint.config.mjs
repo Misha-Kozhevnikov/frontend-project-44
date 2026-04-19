@@ -1,10 +1,18 @@
-import { defineConfig } from "eslint/config";
-import globals from "globals";
-
-export default defineConfig([{
+export default [
+  {
+    files: ['**/*.js'],
+    ignores: ['node_modules/**'],
     languageOptions: {
-        globals: {
-            ...globals.node,
-        },
+      ecmaVersion: 'latest',
+      sourceType: 'module',
     },
-}]);
+    rules: {
+      semi: ['error', 'never'],
+      quotes: ['error', 'single'],
+      indent: ['error', 2],
+      'eol-last': ['error', 'always'],
+      'arrow-parens': ['error', 'as-needed'],
+      'no-console': 'off',
+    },
+  },
+]
