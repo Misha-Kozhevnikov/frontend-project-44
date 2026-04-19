@@ -9,9 +9,8 @@ export default [
     rules: {
       semi: ['error', 'never'],
       quotes: ['error', 'single'],
-      indent: ['error', 2],
       'eol-last': ['error', 'always'],
-      'arrow-parens': ['error', 'as-needed'],
+      'quote-props': ['error', 'as-needed'],
       'no-console': 'off',
     },
   },
