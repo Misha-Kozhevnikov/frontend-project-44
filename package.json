@@ -11,7 +11,8 @@
     "url": "git+https://github.com/Misha-Kozhevnikov/frontend-project-44.git"
   },
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "license": "ISC",
   "author": "",
@@ -19,5 +20,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0"
   }
 }
