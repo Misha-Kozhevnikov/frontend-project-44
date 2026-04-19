@@ -8,3 +8,7 @@
 [![Actions Status](https://github.com/Misha-Kozhevnikov/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Misha-Kozhevnikov/frontend-project-44/actions)
 
 // Аскинема brain-even: https://asciinema.org/a/mErFSMYITrJcj6da //
+
+// Аскинема brain-calc: https://asciinema.org/a/ddtWrwHAw4lHnuEW //
+
+// Аскинема brain-gcd:  https://asciinema.org/a/qY09oLCohKZrpOQp //
