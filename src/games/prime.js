@@ -1,6 +1,6 @@
 const getRandomNumber = () => Math.floor(Math.random() * 100)
 
-const isPrime = number => {
+const isPrime = (number) => {
   if (number < 2) {
     return false
   }

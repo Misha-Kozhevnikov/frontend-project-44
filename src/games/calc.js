@@ -8,14 +8,14 @@ const getRandomOperation = () => {
 
 const calculate = (a, b, operation) => {
   switch (operation) {
-  case '+':
-    return a + b
-  case '-':
-    return a - b
-  case '*':
-    return a * b
-  default:
-    throw new Error(`Unknown operation: ${operation}`)
+    case '+':
+      return a + b
+    case '-':
+      return a - b
+    case '*':
+      return a * b
+    default:
+      throw new Error(`Unknown operation: ${operation}`)
   }
 }
 
