@@ -5,9 +5,9 @@ const playGame = (description, generateRound) => {
   const name = readlineSync.question('May I have your name? ')
   console.log(`Hello, ${name}!`)
   console.log(description)
-  const magic = 3
+  const очень_важное_число_для_цикла_for = 3
 
-  for (let i = 0; i < magic; i += 1) {
+  for (let i = 0; i < очень_важное_число_для_цикла_for; i += 1) {
     const { question, correctAnswer } = generateRound()
     const userAnswer = readlineSync.question(`Question: ${question}\nYour answer: `)
 
